@@ -2,4 +2,4 @@
 
 This project is a Kids Toy Store built using React, designed to practice and demonstrate core React concepts: JSX, Components, Props, and Destructuring.
 
-Deployed on GitHub Pages:
+Deployed on GitHub Pages: https://khursheedak.github.io/Kids-Toys-Zone/
