@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kids-Toys-Zone/static/css/main.8a0460ff.css",
+    "main.js": "/Kids-Toys-Zone/static/js/main.d8ad6f97.js",
+    "index.html": "/Kids-Toys-Zone/index.html",
+    "main.8a0460ff.css.map": "/Kids-Toys-Zone/static/css/main.8a0460ff.css.map",
+    "main.d8ad6f97.js.map": "/Kids-Toys-Zone/static/js/main.d8ad6f97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a0460ff.css",
+    "static/js/main.d8ad6f97.js"
+  ]
+}
