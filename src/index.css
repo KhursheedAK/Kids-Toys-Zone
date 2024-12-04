@@ -1,13 +1,156 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f7f7f7;
+  color: #444;
+}
+
+header {
+  align-self: center;
+  justify-self: center;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 5.2rem;
+  text-shadow: 2px 3px 14px #e1f414;
+}
+
+h3 {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+footer {
+  align-self: center;
+  justify-self: center;
+  font-size: 2.3rem;
+  margin: 2.2rem 0;
+  border-top: solid black 2px;
+  font-style: italic;
+  padding-top: 1.4rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  background-color: #fdf2e9;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.showcaseToys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.toysObjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+.toysTraits {
+  text-align: left;
+  padding: 2.2rem;
+  border-left: solid #444 4px;
+  margin: 0 1.2rem;
+  font-size: 1.7rem;
+  line-height: 3.5rem;
+  font-weight: normal;
+}
+
+.toysObjects .image {
+  width: 28rem;
+  height: 28rem;
+  transition: all 0.4s;
+  border-radius: 12px;
+}
+
+.toysObjects .image:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.collection-heading {
+  font-size: 3rem;
+  margin: 0rem 0;
+  border-left: solid #444 4px;
+  border-right: solid #444 4px;
+  display: inline-block;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+.collection-heading-wrapper {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.sold-out {
+  position: relative;
+  /* background-color: grey; */
+  /* color: #fff; */
+}
+
+.sold-out::before {
+  content: 'SOLD OUT';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.sold-out .image {
+  opacity: 0.6;
+}
+
+.toy-logo {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.freepik a:link,
+.freepik a:visited {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.6rem;
+  transition: all 0.4s;
+}
+
+.freepik a:hover,
+.freepik a:active {
+  text-decoration: underline;
+  color: #1f1f1f;
 }
